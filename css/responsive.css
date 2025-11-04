@@ -1,0 +1,128 @@
+/*
+   Foxden Responsive Design
+*/
+
+@media (max-width: 1024px) {}
+
+/* ---- Start of max-width 992px CSS ---- */
+@media (max-width: 992px) {
+    .sm-padding {
+        padding: 15px;
+    }
+
+    .cta-section,
+    .cta-section .text-right {
+        text-align: center !important;
+    }
+
+    .slider-text h1 {
+        font-size: 66px;
+    }
+}
+
+/* ---- End of max-width 992px CSS ---- */
+
+
+/* ---- Start of min-width 480px and max-width 768px CSS ---- */
+@media all and (min-width: 480px) and (max-width: 768px) {}
+
+/* ---- End of min-width 480px and max-width 768px CSS ---- */
+
+
+/* ---- Start of max-width 767px CSS ---- */
+@media all and (max-width: 767px) {
+
+    body,
+    p {
+        font-size: 13px;
+        line-height: 24px;
+    }
+
+    h1 {
+        font-size: 30px !important;
+    }
+
+    h2 {
+        font-size: 28px;
+        line-height: 36px;
+    }
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p br {
+        display: none;
+    }
+
+    .padding {
+        padding: 70px 0;
+    }
+
+    .pd-top-sm-none {
+        padding-top: 0;
+    }
+
+    .xs-padding {
+        padding: 15px;
+    }
+
+    .navbar-brand {
+        padding: 21px 0;
+    }
+
+    .menu-btn,
+    .menu-wrap ul.nav {
+        display: none;
+    }
+
+    .slicknav_menu {
+        display: block;
+    }
+
+    .slider-text h1 {
+        font-size: 46px;
+    }
+
+    .widget-content.mid-content {
+        padding-left: 0;
+    }
+
+}
+
+/* ---- End of max-width 767px CSS ---- */
+
+
+/* ---- Start of max-width 576px CSS ---- */
+@media all and (max-width: 576px) {
+    .slider-text span {
+        display: none;
+    }
+
+    .social-link li {
+        margin: 0;
+    }
+
+    .cta-section .row {
+        padding: 30px;
+    }
+
+    .about-content h2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+}
+
+/* ---- End of max-width 576px CSS ---- */
+
+
+/* ---- Start of max-width 420px CSS ---- */
+@media all and (max-width: 420px) {}
+
+/* ---- End of max-width 420px CSS ---- */
+
+
+/* ---- Start of max-width 380px CSS ---- */
+@media all and (max-width: 380px) {}
+
+/* ---- End of max-width 380px CSS ---- */
